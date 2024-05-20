@@ -97,7 +97,7 @@ input:checked + .slider:before {
 #submitbutton {
     background-color: rgb(59, 92, 59); 
     border-radius: 6px;
-    color: white;
+    color: rgb(231, 227, 204);
     cursor: pointer;
     font-size: 25px;
     line-height: 1px;
@@ -117,12 +117,13 @@ label {
     display: flex;
     border-right: double 25px rgb(164, 101, 206);
 }
-.dark h1 {
-    color: black;
-}
 
 .light h1 {
     color: rgb(164, 101, 206);
+}
+
+.dark h1 {
+    color: black;
 }
 
 .card {
