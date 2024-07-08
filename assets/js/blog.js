@@ -56,3 +56,33 @@ blogList.forEach(element => {
    
 blogPost.appendChild(child)
 }); 
+
+//Allows the new elements to appear in the specific blogPost of the blog
+// .html 
+}
+
+displayBlogPosts();
+
+//Now I have called the displBlogPosts Function.
+
+themeswitcher.addEventListener('click', function() {
+
+if (mode === 'light') {
+
+    mode = 'dark';
+
+container.setAttribute('class', 'light');   
+
+} else {
+
+    mode = 'light';
+
+container.setAttribute('class', 'dark');
+
+} 
+});
+
+// I called the event listener to allow the theme switch to change from
+// light to dark mode based on user preference. This will also set the
+// light mode as the default with the ability to change the contailner
+// to the dark mode attribute.
