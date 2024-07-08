@@ -57,8 +57,8 @@ blogList.forEach(element => {
 blogPost.appendChild(child)
 }); 
 
-//Allows the new elements to appear in the specific blogPost of the blog
-// .html 
+//Allows the new elements to appear in the specific blogPost of the
+// blog.html 
 }
 
 displayBlogPosts();
